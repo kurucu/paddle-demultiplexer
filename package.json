@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "dependencies": {
+        "@vercel/node": "^1.11.1",
+        "axios": "^0.21.1"
+    }
+}
