@@ -1,5 +1,5 @@
 {
     "mappings": {
-        "4": "https://your_target_url_goes_here"
+        "your_plan_goes_here": "https://your_target_url_goes_here"
     }
 }
