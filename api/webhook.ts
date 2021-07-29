@@ -13,11 +13,17 @@ export default async (request: VercelRequest, response: VercelResponse) => {
     }
 
     const target = config.mappings[subscription_plan_id]
-    
-    await axios.post(target, request.body)
+    let proxy;
+
+    try {
+        proxy = await axios.post(target, request.body)
+    } catch (e) {
+        return response.status(500).send(e)
+    }
 
     return response.status(200).json({
         success: true,
-        subscription_plan_id
+        subscription_plan_id,
+        response: proxy.data
     })
 }
