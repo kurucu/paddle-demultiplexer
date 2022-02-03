@@ -20,6 +20,7 @@ You should use the "Plan ID" as the key and set the value to your application's 
 
 4. Deploy your repository to Vercel.
 5. Configure Paddle to point to your new Vercel project.
+   (Deployed to <https://paddle-demultiplexer-nine.vercel.app> via command line)
 
 ## Updating
 
