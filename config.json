@@ -1,5 +1,8 @@
 {
     "mappings": {
-        "your_plan_goes_here": "https://your_target_url_goes_here"
+        "753806": "https://moonlighter.app/spark/webhook",
+        "753808": "https://moonlighter.app/spark/webhook",
+        "667674": "https://appunti.app/spark/webhook",
+        "667675": "https://appunti.app/spark/webhook"
     }
 }
